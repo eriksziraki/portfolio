@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> <title>sziraki</title>
+
+	<link rel="icon" href="favicon.ico" type="image/x-icon"> 
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+
+	<!-- the CSS for Smooth Div Scroll -->
+	<link rel="Stylesheet" type="text/css" href="css/smoothDivScroll.css" />
+	<link rel="Stylesheet" type="text/css" href="css/fonts.css" />
+	<link rel="Stylesheet" type="text/css" href="css/main.css" />
+	
+	<!-- Styles for my specific scrolling content -->
+	<style type="text/css">
+
+	</style>	
+	
+	
+</head>
+
+<body>
+
+	<div id="menu" style="background:none">
+		<a href="index.html" id="logo"></a>
+		<ul>
+		<li> <a href="profile.html">profile</a> </li>
+		<li> <a href="experience.html">experience</a> </li>
+		<li> <a href="work.html">select work</a> </li>
+		<li> <a href="philosophy.html">philosophy</a> </li>
+		</ul>	
+		</div>
+	</div>
+	
+	<div id="footer">
+		<ul>
+		<li><a href="index.html">&copy; erik sziraki 2013 &bull; site design by erik sziraki</a> </li>
+		<li class="icon"><a href="https://plus.google.com/114576947982493421242/posts" id="gplusicon" alt="google plus" ></a></li>
+		<li class="icon"><a href="http://www.archinect.com/sziraki" id="archinecticon" alt="architect" ></a></li>
+		<li class="icon"><a href="http://www.linkedin.com/pub/erik-sziraki/76/685/111" id="linkedinicon" alt="linked in" ></a></li>
+		<li class="icon"><a href="mailto:erik.sziraki.architect@gmail.com" id="mailicon" alt="email"></a></li>
+		</ul>
+	</div>
+
+
+	<div id="makeMeScrollable" class="slideshow" style="background:none; overflow:hidden;">
+
+		<img style="position:relative; margin-top:-20%;" src="img/boral/extSE.jpg" width="100%"  />
+		<img style="position:relative; margin-top:-20%;" src="img/c_clark/corridor.jpg" width="100%"  />
+		<img style="position:relative; margin-top:-20%;" src="img/c_clark/lounge.jpg" width="100%"  />
+		<img style="position:relative; margin-top:-20%;" src="img/c_clark/meet2.jpg" width="100%"  />
+		<img style="position:relative; margin-top:-10%;" src="img/boral/intDining.jpg" width="100%"  />
+	
+	</div>
+
+	
+	<!-- LOAD JAVASCRIPT LATE - JUST BEFORE THE BODY TAG 
+	     That way the browser will have loaded the images
+		 and will know the width of the images. No need to
+		 specify the width in the CSS or inline. -->
+
+	<!-- jQuery library - Please load it from Google API's -->
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+
+	<!-- jQuery Cycle Plugin -->
+	<script src="js/jquery.cycle.all.js" type="text/javascript"></script>
+	
+
+	<!-- Plugin initialization -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('.slideshow').cycle({
+				fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+			});
+		});
+	</script>
+
+</body>
+</html>
