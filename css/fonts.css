@@ -1,0 +1,63 @@
+@font-face {
+	font-family: 'thin';
+	src: url('../fonts/SWZ721T.eot?#iefix') format('embedded-opentype'), 
+	     url("../fonts/SWZ721T.ttf")  format('truetype'),
+	     url('../fonts/SWZ721T.svg') format('svg'),
+	     url('../fonts/SWZ721T.woff') format('woff');
+	}
+
+@font-face {
+	font-family: 'thinitalic';
+	src: url('../fonts/SWZ721TI.eot?#iefix') format('embedded-opentype'), 
+	     url("../fonts/SWZ721TI.ttf")  format('truetype'),
+	     url('../fonts/SWZ721TI.svg') format('svg'),
+	     url('../fonts/SWZ721TI.woff') format('woff');
+	}
+
+@font-face {
+	font-family: 'medium';
+	src: url('../fonts/SWZ721M.eot?#iefix') format('embedded-opentype'), 
+	     url("../fonts/SWZ721M.ttf")  format('truetype'),
+	     url('../fonts/SWZ721M.svg') format('svg'),
+	     url('../fonts/SWZ721M.woff') format('woff');
+	}
+
+@font-face {
+	font-family: 'heavy';
+	src: url('../fonts/SWZ721H.eot?#iefix') format('embedded-opentype'), 
+	     url("../fonts/SWZ721H.ttf")  format('truetype'),
+	     url('../fonts/SWZ721H.svg') format('svg'),
+	     url('../fonts/SWZ721H.woff') format('woff');
+	}
+
+@font-face {
+	font-family: 'regular';
+	src: url('../fonts/swiss.eot?#iefix') format('embedded-opentype'), 
+	     url("../fonts/swiss.ttf")  format('truetype'),
+	     url('../fonts/swiss.svg') format('svg'),
+	     url('../fonts/swiss.woff') format('woff');
+	}
+
+@font-face {
+	font-family: 'bold';
+	src: url('../fonts/swissb.eot?#iefix') format('embedded-opentype'), 
+	     url("../fonts/swissb.ttf")  format('truetype'),
+	     url('../fonts/swissb.svg') format('svg'),
+	     url('../fonts/swissb.woff') format('woff');
+	}
+
+@font-face {
+	font-family: 'light';
+	src: url('../fonts/swissl.eot?#iefix') format('embedded-opentype'), 
+	     url("../fonts/swissl.ttf")  format('truetype'),
+	     url('../fonts/swissl.svg') format('svg'),
+	     url('../fonts/swissl.woff') format('woff');
+	}
+
+@font-face {
+	font-family: 'lightitalic';
+	src: url('../fonts/swissli.eot?#iefix') format('embedded-opentype'), 
+	     url("../fonts/swissli.ttf")  format('truetype'),
+	     url('../fonts/swissli.svg') format('svg'),
+	     url('../fonts/swissli.woff') format('woff');
+	}

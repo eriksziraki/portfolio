@@ -1,0 +1,100 @@
+		body { background-image:url('../img/mingrey2.jpg'); background-size:cover;}
+		img {border: 0px}
+		a { cursor:pointer; text-decoration:none;}
+		p { font-family: 'regular', Helvetica, Arial, sans-serif; font-size: 0.85em; line-height: 1.25em; margin: 0 0 1em 0; padding: 0; color: #111; text-align:left;  letter-spacing:-.05em}
+		ul {  margin: 0 0 0.75em 0;  padding: 0;  list-style: none; }
+		h1, h2, h3, h4, h5, h6, p, li, tr { font-family:'light'; font-weight: normal; }
+		h1, h2 { font-family: 'medium'; font-weight: normal; margin: 0.0312em 0 0.25em 0;  padding: 0 0 10px 0;  height: 1.25em;  font-size: 1.25em;  line-height: 1em; letter-spacing:-.0em}
+		h2 { font-family:'light'; font-weight: normal; font-size: 1em;}
+		h3 { font-family: 'bold'; margin: 0em 0 0.647em 0;  padding: 0;  font-size: 1em;  line-height: 1.1765em; }
+		h4 { font-family: 'bold'; font-size: .75em; line-height: .85em; margin: 0 0 1em 0; padding: 0; text-align:left; font-weight:normal }
+		h5 { margin: 1.1818em 0 0.2727em 0; font-size: 0.6875em; clear: left; }
+		h6 { font-size: 0.75em; line-height: 1.15em; margin: 0 0 1em 0; padding: 0; text-align:left; font-weight:normal; }
+		li.project { clear: both; float:left; padding: 0px 0 2px 20px;  font-size: 0.75em; line-height: 1.3333em;  background: url('bullet.gif') no-repeat left 0.5em;  }
+		
+	
+		#makeMeScrollable
+		{
+			width:100%;
+			height: 480px;
+			position: absolute;
+			min-width: 980px; margin-top: -240px; top: 50%; left:0; background:white; border:1px solid black; opacity:0.8;
+		}
+		
+		/* Replace the last selector for the type of element you have in
+		   your scroller. If you have div's use #makeMeScrollable div.scrollableArea div,
+		   if you have links use #makeMeScrollable div.scrollableArea a and so on. */
+		#makeMeScrollable div.scrollableArea div
+		{
+			position: relative;
+			float: left;
+			margin: 0;
+			padding: 0;
+			padding-left:0px;
+			/* If you don't want the images in the scroller to be selectable, try the following
+			   block of code. It's just a nice feature that prevent the images from
+			   accidentally becoming selected/inverted when the user interacts with the scroller. */
+			-webkit-user-select: none;
+			-khtml-user-select: none;
+			-moz-user-select: none;
+			-o-user-select: none;
+			user-select: none;
+
+		}
+
+		#menu
+		{
+			width:100%;
+			height: 50px;
+			position: absolute;
+			overflow: hidden;
+			min-width: 980px; margin-top: -291px; top: 50%; left:0; background:none; border:0px solid black; opacity:0.8;
+		}
+		#menu li { clear:both; display:inline-block; margin: 15px 15px 0 0; }
+		#menu a, menu a:hover { color:#5f8dd3; }
+			#menu a:hover { color:#ff7f2a; }
+			
+		#footer
+		{
+			width:100%;
+			height: 50px;
+			position: absolute;
+			min-width: 980px; margin-top: 241px; top: 50%; left:0; background:none; border:0px solid black; opacity:0.8;
+		}
+		
+		#footer ul { clear:both;  }
+		#footer li { float:right;  display:inline-block;  margin: 10px 35px 0 35px; font-size: 0.75em; color:#333; /*background:red;*/}
+			#footer a:visited { color:#333; }
+			#footer a:hover { color:#ff7f2a; }
+			#footer a:active { color:#ff7f2a; }
+		#footer li.icon { float:right; width:30px; display:inline; margin: 5px 10px 0 0; }			
+			
+		.border1 { border-right: 1px solid black; }
+		.content, .content2 { padding:0px; margin:0px; width:380px; overflow:hidden; }
+		.content2 { border-bottom:1px solid black;}
+		.textbox { float:left; margin:0; padding:25px; width:500px; height:540px; background:none; /*background:#aaccff;*/ }
+
+		.slatebox { background:#222; }
+		.slatebox li, .slatebox p, .slatebox h1, .slatebox h2 { color:#eee; }
+		.experience { float:left; margin:100px; width:480px; background:none; height:410px; border-left: dotted 2px #ccc; }
+		.experience table { width:100%; margin:0 0 20px 0;  }
+		.experience tr {   }
+		.experience td { padding: 0px;  }
+		.experience td.right { padding:2px; float:right; font-size: .85em; }
+		.experience h1 { margin-bottom:3em;  }
+		.experience h3 { font-family: 'bold'; margin: 0em 0 0em 0;  padding: 0;  font-size: 1em;  line-height: 1.1765em; }
+		
+		#logo { float: left; margin: 10px 70px 0 70px; background: url(../img/logoOrng2.png) 0 0 no-repeat; width: 103px; height: 25px; }
+		a#logo:hover { background-position: 0 -26px; }
+		
+		#mailicon { float: left; margin: 0px 0px 0 0px; background: url(../img/mail_dual_24.png) 0 0 no-repeat; width: 24px; height: 24px; }
+		a#mailicon:hover { background-position: 0 -24px; }
+		
+		#linkedinicon { float: left; margin: 0px 0px 0 0px; background: url(../img/linkedin_dual_24.png) 0 0 no-repeat; width: 24px; height: 24px; }
+		a#linkedinicon:hover { background-position: 0 -24px; }
+
+		#archinecticon { float: left; margin: 0px 0px 0 0px; background: url(../img/archinect_dual_24.png) 0 0 no-repeat; width: 24px; height: 24px; }
+		a#archinecticon:hover { background-position: 0 -24px; }
+			
+		#gplusicon { float: left; margin: 0px 0px 0 0px; background: url(../img/google_plus_dual_24.png) 0 0 no-repeat; width: 24px; height: 24px; }
+		a#gplusicon:hover { background-position: 0 -24px; }			
